@@ -1,0 +1,50 @@
+        <div class="container">
+            <div class="row">
+            
+                <div class="col-12 col-md-4">
+                    <div class="single-feature text-center text-lg-center">
+                        <img src="./assets/images/foto1.jpg" alt="feature" class="img-fluid feature-img">
+                        <!-- Empty Space -->
+                        <div class="space-md"></div>
+                        <!--/ End Empty Space -->
+                        <h3 class="title">Lorem Ipsum dolor</h3>
+                        <!-- Empty Space -->
+                        <div class="space-sm"></div>
+                        <!--/ End Empty Space -->
+                        <p class="lead">
+                            Cras aliquam, urna sed bibendum placerat nunc urna imperdiet est ac laoreet justo dui vel lorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="single-feature text-center text-lg-center">
+                        <img src="./assets/images/foto2.jpg" alt="feature" class="img-fluid feature-img">
+                        <!-- Empty Space -->
+                        <div class="space-md"></div>
+                        <!--/ End Empty Space -->
+                        <h3 class="title">Lorem Ipsum dolor</h3>
+                        <!-- Empty Space -->
+                        <div class="space-sm"></div>
+                        <!--/ End Empty Space -->
+                        <p class="lead">
+                            Cras aliquam, urna sed bibendum placerat nunc urna imperdiet est ac laoreet justo dui vel lorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="single-feature text-center text-lg-center">
+                        <img src="./assets/images/feature-3.svg" alt="feature" class="img-fluid feature-img">
+                        <!-- Empty Space -->
+                        <div class="space-md"></div>
+                        <!--/ End Empty Space -->
+                        <h3 class="title">Lorem Ipsum dolor</h3>
+                        <!-- Empty Space -->
+                        <div class="space-sm"></div>
+                        <!--/ End Empty Space -->
+                        <p class="lead">
+                            Cras aliquam, urna sed bibendum placerat nunc urna imperdiet est ac laoreet justo dui vel lorem.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
