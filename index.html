@@ -22,7 +22,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     
+    <script type="text/javascript" src="./assets/js/instafeed.min.js"></script>
+
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/owl.carousel.min.js"></script>
     
 </head>
 <body>
@@ -143,16 +150,64 @@
                                                             Revestimento de volantes.
                                                         </p>
                                                     </div>
+                                                    <!-- Empty Space -->
+                                        <div class="space-lg"></div>
+                                        <!--/ End Empty Space -->
                                                 </div>
                                             </div>
                                         </div>
-                                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        
+                                        
+                                            <!--/ <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"> -->
                                             <!-- Empty Space -->
                                             <div class="space-md"></div>
                                             <div class="space-md"></div>
                                             <!--/ End Empty Space -->
-                                                <div id="instagram"></div>        
+                                            <!--/    <div id="instagram"></div>    -->
+                                                
                                             </div>
+                                             
+                                        </div>
+                                        <div>
+                                            <div class="space-md"></div>
+                                            <div class="space-md"></div>
+                                        <div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
+                                        
+                                        <script type="text/javascript">
+                                            var feed = new Instafeed({
+                                                accessToken: 'IGQVJVTXdTSXZAfeXEtNEpHWXJPTnpuNVdTbmlYV2xzUWdvY3dFdmN1TVI0eGxranpES2RYMFZACVDNEdVZAmSVRNWGd2UmR4eWpZAb0FockZAmOUZAxaWtzZAndmdDluQkxoQkl6Q1B1N3RiZAHViV3h1S2xmdQZDZD',
+                                                limit: 12,
+                                                template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+                                    
+                                                after: function(){
+                                    
+                                                    $('.owl-carousel').owlCarousel({
+                                                        loop:true,
+                                                        margin:10,
+                                                        nav:false,
+                                                        responsiveClass:true,
+                                                        responsive:{
+                                                            0:{
+                                                                items:1
+                                                                
+                                                            },
+                                                            600:{
+                                                                items:3
+                                                                
+                                                            },
+                                                            1000:{
+                                                                items:5,							
+                                                                loop:false
+                                                            }
+                                                        }
+                                                    });
+                                                }
+                                            });
+                                    
+                                    
+                                            feed.run();
+                                    
+                                        </script>
                                         </div>                                    
                                     <div class=" col-lg-center mr-lg-auto">
                                             <div class="single-feature mt-4 text-center text-lg-left">
@@ -285,6 +340,13 @@
     <script src="./assets/js/mobile-navbar.js"></script>
     <script src="./assets/js/scripts.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./assets/js/instafeed.min.js"></script>
+
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/owl.carousel.min.js"></script>
+
+
     
 
 </body>
