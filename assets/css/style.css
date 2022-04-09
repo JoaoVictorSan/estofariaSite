@@ -85,7 +85,7 @@ p {
 header{
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
 }
 .header {
     padding: 0px 100;
@@ -217,7 +217,7 @@ ul{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #302e2e;
     height: 8vh;
-    z-index: 1;
+    z-index: 9999;
   }
   
   .nav-list {
@@ -225,7 +225,7 @@ ul{
     display: flex;
     align-items: center;
     margin-top: auto;
-    z-index: 1;
+    z-index: 9999;
   }
   
   .nav-list li {
@@ -320,7 +320,7 @@ ul{
   position: fixed;
   bottom: 50px;
   right: 20px;
-  z-index: 999
+  z-index: 9999;
 }
 
 button.pulse-button i {
